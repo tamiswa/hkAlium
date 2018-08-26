@@ -22,7 +22,7 @@ public class UICustomCollectionViewLayout: UICollectionViewLayout {
     public var numberOfColumns = 2
     public var cellPadding: CGFloat = 8.0
     
-    var cache = [UICollectionViewLayoutAttributes]()
+    public var cache = [UICollectionViewLayoutAttributes]()
     
     private var contentHeight: CGFloat = 0.0
     private var contentWidth: CGFloat {
